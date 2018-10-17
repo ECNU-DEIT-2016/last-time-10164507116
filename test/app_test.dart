@@ -1,8 +1,8 @@
 @TestOn('browser')
 import 'package:angular_test/angular_test.dart';
 import 'package:test/test.dart';
-import 'package:last_time_10164507116/app_component.dart';
-import 'package:last_time_10164507116/app_component.template.dart' as ng;
+import 'package:fcapp/app_component.dart';
+import 'package:fcapp/app_component.template.dart' as ng;
 
 void main() {
   final testBed =

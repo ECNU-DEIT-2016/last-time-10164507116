@@ -2,8 +2,7 @@ import 'dart:async';
 
 import 'package:angular/angular.dart';
 import 'package:angular_components/angular_components.dart';
-
-import 'todo_list_service.dart';
+import 'todo_list_service.dart';  
 
 @Component(
   selector: 'todo-list',
@@ -11,12 +10,15 @@ import 'todo_list_service.dart';
   templateUrl: 'todo_list_component.html',
   directives: [
     MaterialCheckboxComponent,
+    MaterialCheckboxComponent,
     MaterialFabComponent,
     MaterialIconComponent,
+    MaterialRadioComponent,
     materialInputDirectives,
+    MaterialButtonComponent,
     NgFor,
     NgIf,
-  ],
+  ],//component !important !import
   providers: [const ClassProvider(TodoListService)],
 )
 class TodoListComponent implements OnInit {
@@ -36,6 +38,5 @@ class TodoListComponent implements OnInit {
     items.add(newTodo);
     newTodo = '';
   }
-
   String remove(int index) => items.removeAt(index);
 }

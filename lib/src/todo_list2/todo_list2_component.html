@@ -1,0 +1,15 @@
+<!-- Components info: https://webdev.dartlang.org/components -->
+<acx-scorecard
+    label="Betting"
+    class="betting"
+    value="${{ cash }}"
+    description="{{ outcomeDescription }}"
+    changeType="{{ cash > altCash ? 'positive' : cash < altCash ? 'negative' : 'neutral' }}">
+</acx-scorecard>
+
+<acx-scorecard
+    label="Investing"
+    class="investing"
+    value="${{ altCash }}"
+    description="...">
+</acx-scorecard>

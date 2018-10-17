@@ -23,3 +23,7 @@ li material-fab {
 .done {
   text-decoration: line-through;
 }
+
+.line{
+  text-underline-position: below;
+}
