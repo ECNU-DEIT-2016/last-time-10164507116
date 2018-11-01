@@ -1,7 +1,5 @@
 # fcapp
 
-A web app that uses [AngularDart](https://webdev.dartlang.org/angular) and
-[AngularDart Components](https://webdev.dartlang.org/components).
+把几次作业合在一起了
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+仍然是随机点名，显示名字，显示次数，点一个被点最少的人，显示历史记录
